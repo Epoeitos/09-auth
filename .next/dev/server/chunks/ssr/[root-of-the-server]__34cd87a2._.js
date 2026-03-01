@@ -200,7 +200,7 @@ function Footer() {
                     className: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2f$Footer$2e$module$2e$css__$5b$app$2d$rsc$5d$__$28$css__module$29$__["default"].wrap,
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            children: "Developer: Wiktor Fox"
+                            children: "Developer: Furman Oleksandr"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer/Footer.tsx",
                             lineNumber: 11,
@@ -210,7 +210,7 @@ function Footer() {
                             children: [
                                 "Contact us:",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    href: "https://www.linkedin.com/in/wiktor-bruj/",
+                                    href: "https://www.linkedin.com/in/oleksandr-furman-/",
                                     target: "_blank",
                                     children: "Linkedin"
                                 }, void 0, false, {
@@ -343,7 +343,7 @@ const metadata = {
     openGraph: {
         title: 'Note Hub',
         description: 'My note hub',
-        url: 'https://08-zustand-steel-nine.vercel.app/',
+        url: 'https://09-auth-drab-two.vercel.app/',
         images: [
             {
                 url: 'https://ac.goit.global/fullstack/react/notehub-og-meta.jpg',
