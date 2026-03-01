@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%40modal/%28.%29notes/%5Bid%5D/error.tsx"],"sourcesContent":["'use client';\r\n\r\ninterface ErrorProps {\r\n  error: Error;\r\n}\r\n\r\nexport default function Error({ error }: ErrorProps) {\r\n  if (error) return null;\r\n}"],"names":[],"mappings":"uCAMe,SAAS,EAAM,OAAE,CAAK,CAAc,EACjD,GAAI,EAAO,OAAO,IACpB"}

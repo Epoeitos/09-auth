@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///A:/projects/1.03/08-zustand/app/%40modal/%28.%29notes/%5Bid%5D/error.tsx"],"sourcesContent":["'use client';\r\n\r\ninterface ErrorProps {\r\n  error: Error;\r\n}\r\n\r\nexport default function Error({ error }: ErrorProps) {\r\n  if (error) return null;\r\n}"],"names":[],"mappings":";;;;AAAA;AAMe,SAAS,MAAM,EAAE,KAAK,EAAc;IACjD,IAAI,OAAO,OAAO;AACpB;KAFwB"}}]
+}

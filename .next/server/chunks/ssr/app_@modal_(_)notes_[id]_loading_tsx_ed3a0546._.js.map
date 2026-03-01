@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../app/%40modal/%28.%29notes/%5Bid%5D/loading.tsx"],"sourcesContent":["export default function Loading() {\r\n  return null;\r\n}"],"names":[],"mappings":"uCAAe,SAAS,IACtB,OAAO,IACT"}

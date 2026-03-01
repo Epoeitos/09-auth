@@ -1,0 +1,26 @@
+/* [project]/app/notes/filter/@sidebar/default.module.css [app-client] (css) */
+.default-module__YaAO1a__menuList {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.default-module__YaAO1a__menuItem {
+  margin-bottom: 16px;
+}
+
+.default-module__YaAO1a__menuLink {
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  display: block;
+}
+
+.default-module__YaAO1a__menuLink:hover {
+  color: #ddd;
+  background-color: #444;
+}
+
+/*# sourceMappingURL=app_notes_filter_%40sidebar_default_module_aff3adca.css.map*/

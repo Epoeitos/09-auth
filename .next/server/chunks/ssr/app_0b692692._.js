@@ -1,0 +1,3 @@
+module.exports=[32401,a=>{a.v({container:"page-module__E0kJGG__container",description:"page-module__E0kJGG__description",main:"page-module__E0kJGG__main",title:"page-module__E0kJGG__title"})},63588,a=>{"use strict";var b=a.i(7997),c=a.i(32401);function d(){return(0,b.jsx)("main",{className:c.default.main,children:(0,b.jsx)("p",{children:"Loading, please wait..."})})}a.s(["default",()=>d])}];
+
+//# sourceMappingURL=app_0b692692._.js.map

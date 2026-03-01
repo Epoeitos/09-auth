@@ -1,0 +1,21 @@
+/* [project]/components/NotFound/NotFound.module.css [app-client] (css) */
+.NotFound-module__i-nTaq__main {
+  flex: 1;
+}
+
+.NotFound-module__i-nTaq__title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.NotFound-module__i-nTaq__description {
+  color: #444;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=components_NotFound_NotFound_module_8d6fb76c.css.map*/

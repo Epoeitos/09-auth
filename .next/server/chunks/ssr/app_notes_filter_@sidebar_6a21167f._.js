@@ -1,0 +1,3 @@
+module.exports=[62224,a=>{a.v({menuItem:"default-module__YaAO1a__menuItem",menuLink:"default-module__YaAO1a__menuLink",menuList:"default-module__YaAO1a__menuList"})},74460,a=>{"use strict";var b=a.i(7997),c=a.i(62224),d=a.i(95936);function e(){return(0,b.jsx)("ul",{className:c.default.menuList,children:["all","Todo","Work","Personal","Meeting","Shopping"].map((a,e)=>(0,b.jsx)("li",{className:c.default.menuItem,children:(0,b.jsx)(d.default,{href:`/notes/filter/${a}`,className:c.default.menuLink,children:`${"all"===a?"All notes":a}`})},e))})}a.s(["default",()=>e])}];
+
+//# sourceMappingURL=app_notes_filter_%40sidebar_6a21167f._.js.map
