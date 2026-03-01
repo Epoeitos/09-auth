@@ -1,0 +1,100 @@
+/* [project]/app/(auth roles)/sign-up/page.module.css [app-client] (css) */
+.page-module__FKD4dG__mainContent {
+  flex: 1;
+}
+
+.page-module__FKD4dG__form {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  display: flex;
+  box-shadow: 0 2px 8px #0000000d;
+}
+
+.page-module__FKD4dG__formTitle {
+  text-align: center;
+  color: #212529;
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.page-module__FKD4dG__formGroup {
+  color: #212529;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+}
+
+.page-module__FKD4dG__input {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  margin-top: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.page-module__FKD4dG__actions {
+  justify-content: flex-end;
+  gap: 8px;
+  display: flex;
+}
+
+.page-module__FKD4dG__submitButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color .2s;
+}
+
+.page-module__FKD4dG__submitButton:hover {
+  background-color: #0d6efd;
+}
+
+.page-module__FKD4dG__submitButton:disabled {
+  cursor: not-allowed;
+  background-color: #b1c7ae;
+}
+
+.page-module__FKD4dG__error {
+  color: #dc3545;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+/* [project]/components/Modal/Modal.module.css [app-client] (css) */
+.Modal-module__sR2AWG__backdrop {
+  z-index: 1000;
+  background-color: #21252999;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Modal-module__sR2AWG__modal {
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 500px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 0 5px 15px #0000004d;
+}
+
+/*# sourceMappingURL=_28723dce._.css.map*/

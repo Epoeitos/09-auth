@@ -1,24 +1,11 @@
-type TagNote = 'Todo' | 'Work' | 'Personal' | 'Meeting' | 'Shopping';
+import type { NextConfig } from 'next';
 
-export type FetchTagNote =
-  | 'Todo'
-  | 'Work'
-  | 'Personal'
-  | 'Meeting'
-  | 'Shopping'
-  | 'all';
+const nextConfig: NextConfig = {
+  /* config options here */
+  reactCompiler: true,
+  images: {
+    remotePatterns: [{ protocol: 'https', hostname: 'ac.goit.global' }],
+  },
+};
 
-export interface Note {
-  content: string;
-  id: string;
-  tag: TagNote;
-  title: string;
-  createdAt: string;
-  updatedAt: string;
-}
-
-export interface NewNote {
-  title: string;
-  content: string;
-  tag: TagNote;
-}
+export default nextConfig;

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///A:/projects/0909/09-auth/app/%28auth%20roles%29/layout.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { useEffect, useState } from 'react';\r\nimport { useRouter } from 'next/navigation';\r\n\r\ninterface PublicLayoutProps {\r\n  children: React.ReactNode;\r\n}\r\n\r\nexport default function PublicLayout({ children }: PublicLayoutProps) {\r\n  const [loading, setLoading] = useState(true);\r\n  const router = useRouter();\r\n\r\n  useEffect(() => {\r\n    router.refresh();\r\n    setTimeout(() => {\r\n      setLoading(false);\r\n    }, 0);\r\n  }, [router]);\r\n\r\n  return <>{loading ? <p>Loading...</p> : children}</>;\r\n}"],"names":[],"mappings":";;;;;AAEA;AACA;AAHA;;;;AASe,SAAS,aAAa,EAAE,QAAQ,EAAqB;IAClE,MAAM,CAAC,SAAS,WAAW,GAAG,IAAA,iNAAQ,EAAC;IACvC,MAAM,SAAS,IAAA,+IAAS;IAExB,IAAA,kNAAS,EAAC;QACR,OAAO,OAAO;QACd,WAAW;YACT,WAAW;QACb,GAAG;IACL,GAAG;QAAC;KAAO;IAEX,qBAAO;kBAAG,wBAAU,8OAAC;sBAAE;;;;;mBAAiB;;AAC1C"}}]
+}
